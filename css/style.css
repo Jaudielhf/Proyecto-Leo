@@ -6,29 +6,9 @@ body{
 
 .container{
     width: 95%;
-    margin-top: 5px;
-    
+    margin-top: 3%;
     
 }
-.elementos-head{
-  padding: 10px;
-  margin: auto;
-  text-align: center;
-}
- .head-container{
-   display: flex;
-   margin: 2px;
-   justify-content: space-around;
-    width: 100%;
-    text-align: left;
-    border-color: black;
-    border: 1px solid black;
-    background: rgba(224, 232, 145, 0.829) ;
-    font-size: 20px;
-  font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
-  font-style: italic;
- }
 .body-content{
     padding: 10px;
     margin: auto;
@@ -70,7 +50,9 @@ img{
     border-radius: 6px;
     background-color: white;
   }
-  
+  .img-container{
+    margin-left: 50px;
+  }
   .img {
     width: 100%;
     height: 175px;
