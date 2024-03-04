@@ -9,33 +9,29 @@
     <title>Restaurante</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">LA CASA DEL SABOR</a>
+          <a class="navbar-brand" href="index.php">LA CASA DEL SABOR</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="./menu/adm_entradas/formulario_add.php">Nuevo</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                  Categoria
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="./menu/adm_entradas/entradas.php">Entradas</a></li>
+                  <li><a class="dropdown-item" href="./menu/platillos.php">Platillos</a></li>
+                  <li><a class="dropdown-item" href="./menu/bebidas.php">Bebidas</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="./menu/postres.php">Postres</a></li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -45,6 +41,7 @@
           </div>
         </div>
       </nav>
+      
     <div class="container">
       
         <div class="body-content">
@@ -69,7 +66,8 @@
                         <div class="card-data">
                           <p class="title">This is a test title
                           </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                          <button class="button">Ver Productos</button>
+                          <button class="button" onclick="location.href='./menu/adm_entradas/entradas.php' " >Ver Productos</button>
+                         
                         </div>
                     </div>
                 </article>
@@ -82,7 +80,7 @@
                         <div class="card-data">
                           <p class="title">This is a test title
                           </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                          <button class="button">Ver Productos</button>
+                          <button class="button" onclick="location.href='./menu/platillos.php'">Ver Productos</button>
                         </div>
                     </div>
                 </article>
@@ -95,7 +93,7 @@
                         <div class="card-data">
                           <p class="title">This is a test title
                           </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                          <button class="button">Ver Productos</button>
+                          <button class="button" onclick="location.href='./menu/bebidas.php'">Ver Productos</button>
                         </div>
                     </div>
                 </article>
@@ -108,7 +106,7 @@
                         <div class="card-data">
                           <p class="title">This is a test title
                           </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                          <button class="button">Ver Productos</button>
+                          <button class="button" onclick="location.href='./menu/postres.php'">Ver Productos</button>
                         </div>
                     </div>
                 </article>
