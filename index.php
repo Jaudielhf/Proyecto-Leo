@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
 <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
-    <title>Restaurante !!!!!</title>
+    <title>Restaurante
+    </title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
