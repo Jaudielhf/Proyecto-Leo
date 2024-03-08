@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '../vendor/autoload.php';
+require_once __DIR__ . './../vendor/autoload.php';
 $nombre= $_POST['name'];
 $ing= $_POST['ingredientes'];
 $instr= $_POST['instrucciones'];
@@ -20,8 +20,6 @@ $insertOneResult = $collection->insertOne([
 ]);
 
 header("Location:entradas.php");
-//printf("Se insertó %d documento(s)\n", $insertOneResult->getInsertedCount());
-
 
 
 var_dump($insertOneResult->getInsertedId());
