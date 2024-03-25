@@ -48,9 +48,9 @@
         <div class="body-content">
             <div class="title-container">
                 <div class="information-container">
-                    <h1>RESTAURANTE</h1>
-                    <h2>Información</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam debitis id ea reprehenderit, at praesentium tenetur perferendis voluptatem! Tenetur et deleniti nesciunt quis voluptatem voluptas nemo aperiam dolorum, eligendi laboriosam!</p>
+                    <h1>La Casa del Sabor</h1>
+                    <h2>Administre los alimentos</h2>
+                    <p>En este sistema podra administrar de mejor manera sus entradas, platillos, bebidas y postres</p>
                 </div>
                 <div class="img-container">
                     <img src="./src/img/imgprueba.jpg" alt="">
@@ -65,7 +65,7 @@
                             <img class="img" src="https://blog.simpliza.com.br/wp-content/uploads/2022/06/entradas-para-restaurantes-melhores-ideias-scaled-e1690810095581.jpg" alt="">
                         </div>
                         <div class="card-data">
-                          <p class="title">This is a test title
+                          <p class="title">Administrar Entradas
                           </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                           <button class="button" onclick="location.href='./menu/adm_entradas/entradas.php' " >Ver Productos</button>
                          
@@ -79,7 +79,7 @@
                             <img class="img" src="https://media-cdn.tripadvisor.com/media/photo-s/13/ab/bb/9a/platillos-de-alta-cocina.jpg" alt="">
                         </div>
                         <div class="card-data">
-                          <p class="title">This is a test title
+                          <p class="title">Administrar Platillos
                           </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                           <button class="button" onclick="location.href='./menu/platillos.php'">Ver Productos</button>
                         </div>
@@ -92,7 +92,7 @@
                            <img class="img" src="https://media.glamour.mx/photos/63fbac8762e9478a3fe578a3/4:3/w_2431,h_1823,c_limit/Decoraci%C3%B3n%20de%20bebidas.jpg" alt="">
                         </div>
                         <div class="card-data">
-                          <p class="title">This is a test title
+                          <p class="title">Administrar Bebidas
                           </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                           <button class="button" onclick="location.href='./menu/bebidas.php'">Ver Productos</button>
                         </div>
@@ -105,7 +105,7 @@
                             <img src="https://i.pinimg.com/originals/63/5a/18/635a189d1f8c5494690783ec6c8e76ed.jpg" alt="" class="img">
                         </div>
                         <div class="card-data">
-                          <p class="title">This is a test title
+                          <p class="title">Administrar Postres
                           </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                           <button class="button" onclick="location.href='./menu/postres.php'">Ver Productos</button>
                         </div>
