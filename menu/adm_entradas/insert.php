@@ -19,7 +19,7 @@ $insertOneResult = $collection->insertOne([
     
 ]);
 
-header("Location:entradas.php");
+header("Location:../../index.php");
 
 
 var_dump($insertOneResult->getInsertedId());

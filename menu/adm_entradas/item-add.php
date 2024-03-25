@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html>
-  
-    <head>
-        <title>Añadir usuario</title>
-    </head>
-    <body>
+
+<head>
+    <title>Añadir usuario</title>
+</head>
+
+<body>
+    <div class="container">
+    <div class="col">
+        <div class="row">
         <form method="post" action="insert.php">
-        
-            <table>
-                <tr><td><b><label>nombre</label></b></td></tr></div>
-                <tr><td><input type="text"  name="name"/></td></tr>
-                <tr><td><b><label class="form-label">ingredientes</label></b></td></tr>        
-                <tr><td>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="ingredientes"></textarea>
-                </td></tr>
-                <tr><td><b><label for="">instrucciones</label></b></td></tr>
-                <tr><td>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="instrucciones"></textarea>
-                </td></tr>
-                <tr><td><b><label for="">categoria</label></b></td></tr>
-                <tr><td><input type="text" name="categoria"/></td></tr>
-                <tr><td><b><label>Clave</label></b></td></tr>
-                <tr><td><input type="text" name="codigo" /> </td></tr>
-                <tr><td><b><label for="">precio</label></b></td></tr>
-                <tr><td><input type="number" value="0" name="precio"/></td></tr>
-                <tr><td><input type="submit" value="Continuar"/> </td></tr>  
-                </table>
-                </form>                    
-    </body>
- </html>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nombre del producto</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" name="name">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Ingredientes</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="ingredientes"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Instrucciones</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="instrucciones"></textarea>
+        </div>
+        <select class="form-select" aria-label="Default select example" name="categoria">
+            <option selected>Categoria</option>
+            <option value="entrada">Entrada</option>
+            <option value="platillo">Platillo</option>
+            <option value="bebida">Bebida</option>
+            <option value="postre">Postre</option>
+        </select>
+        <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Codigo</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" name="codigo">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Precio</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" name="precio">
+        </div>
+        <button type="submit" class="btn btn-primary" value="Continuar">Agregar</button>
+    </form>
+
+        </div>
+    </div>
+    </div>
+    
+</body>
+
+</html>
