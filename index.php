@@ -66,7 +66,7 @@
                         </div>
                         <div class="card-data">
                           <p class="title">Administrar Entradas
-                          </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </p><p>son aquellos platos que se sirven con anterioridad al plato principal.</p>
                           <button class="button" onclick="location.href='./menu/adm_entradas/entradas.php' " >Ver Productos</button>
                          
                         </div>
@@ -74,13 +74,13 @@
                 </article>
                 <article class="card">
                     <div class="card-int">
-                        <span class="card__span">PLATILLOS</span>
+                        <span class="card__span">PLATO FUERTE</span>
                         <div class="img">
                             <img class="img" src="https://media-cdn.tripadvisor.com/media/photo-s/13/ab/bb/9a/platillos-de-alta-cocina.jpg" alt="">
                         </div>
                         <div class="card-data">
-                          <p class="title">Administrar Platillos
-                          </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          <p class="title">Administrar Platos Fuertes
+                          </p><p>es aquel que es el más voluminoso y el que define la comida.</p>
                           <button class="button" onclick="location.href='./menu/platillos.php'">Ver Productos</button>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
                         </div>
                         <div class="card-data">
                           <p class="title">Administrar Bebidas
-                          </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </p><p> cualquier líquido que se ingiere. La bebida más consumida es el agua. </p>
                           <button class="button" onclick="location.href='./menu/bebidas.php'">Ver Productos</button>
                         </div>
                     </div>
@@ -106,7 +106,7 @@
                         </div>
                         <div class="card-data">
                           <p class="title">Administrar Postres
-                          </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </p><p>último plato de la comida, se asocia con todas las preparaciones dulces.</p>
                           <button class="button" onclick="location.href='./menu/postres.php'">Ver Productos</button>
                         </div>
                     </div>

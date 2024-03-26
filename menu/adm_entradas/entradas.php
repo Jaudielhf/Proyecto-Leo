@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="../../bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <script src="../../bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+
     <title>Entradas</title>
 </head>
 
@@ -21,8 +23,9 @@
             require_once("connect_data.php");
 
             if ($users->count() > 0) {
-                //busqueda por filtro de categoria
+             
                 $datos = $users->find(['categoria' => 'entrada']);
+              
             ?>
         <table class="table">
             <thead>
@@ -39,6 +42,7 @@
             </thead>
             <?php
                 foreach ($datos as $dato) {
+                   
             ?>
                 <tr>
                     <td>
@@ -62,7 +66,13 @@
                     <td>
                         <p><?php echo $dato["precio"] ?></p>
                     </td>
-                    <td><button type="button" class="btn btn-info edit" onclick="location.href='edituserprueba.php?id=<?php echo $dato['_id']; ?>'">Editar</button></td>
+                    <td>
+                        <form action="./edit_producto.php" method="POST">
+                            <input type="hidden" name="id" value="<?php echo $dato['_id']; ?>">
+                            <button type="submit" class="btn btn-info edit" name="edit">Editar</button>
+                        </form>
+                        
+                    </td>
                     <td><button type="button" class="btn btn-danger extbt delete-btn">Eliminar</button></td>
                 </tr>
             <?php

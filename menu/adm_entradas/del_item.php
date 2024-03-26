@@ -6,7 +6,7 @@
     $DeleteOneResult=$users->deleteOne([
        'id'=>$id
     ]);
-    
+    header('Location:entradas.php');
     printf("Deleted %d document(s)\n", $DeleteOneResult->getDeletedCount())
   
 
