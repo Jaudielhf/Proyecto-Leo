@@ -29,7 +29,7 @@
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="./menu/adm_entradas/entradas.php">Entradas</a></li>
                   <li><a class="dropdown-item" href="./menu/platillos.php">Platillos</a></li>
-                  <li><a class="dropdown-item" href="./menu/bebidas.php">Bebidas</a></li>
+                  <li><a class="dropdown-item" href="./menu/admn_bebidas/bebidas.php">Bebidas</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="./menu/postres.php">Postres</a></li>
                 </ul>
@@ -94,7 +94,7 @@
                         <div class="card-data">
                           <p class="title">Administrar Bebidas
                           </p><p> cualquier líquido que se ingiere. La bebida más consumida es el agua. </p>
-                          <button class="button" onclick="location.href='./menu/bebidas.php'">Ver Productos</button>
+                          <button class="button" onclick="location.href='./menu/admn_bebidas/bebidas.php'">Ver Productos</button>
                         </div>
                     </div>
                 </article>
