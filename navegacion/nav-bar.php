@@ -16,7 +16,7 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="../../menu/adm_entradas/entradas.php">Entradas</a></li>
-                  <li><a class="dropdown-item" href="../../menu/platillos.php">Platillos</a></li>
+                  <li><a class="dropdown-item" href="../../menu/adm_platillos/platillos.php">Platillos</a></li>
                   <li><a class="dropdown-item" href="../../menu/admn_bebidas/bebidas.php">Bebidas</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="../../menu/postres.php">Postres</a></li>
