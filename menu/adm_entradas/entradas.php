@@ -23,9 +23,9 @@
             require_once("connect_data.php");
 
             if ($users->count() > 0) {
-             
+
                 $datos = $users->find(['categoria' => 'entrada']);
-              
+
             ?>
         <table class="table">
             <thead>
@@ -42,7 +42,7 @@
             </thead>
             <?php
                 foreach ($datos as $dato) {
-                   
+
             ?>
                 <tr>
                     <td>
@@ -71,9 +71,12 @@
                             <input type="hidden" name="id" value="<?php echo $dato['_id']; ?>">
                             <button type="submit" class="btn btn-info edit" name="edit">Editar</button>
                         </form>
-                        
+
                     </td>
-                    <td><button type="button" class="btn btn-danger extbt delete-btn">Eliminar</button></td>
+                    <td>
+                        <button type="button" class="btn btn-danger extbt delete-btn" data-id="<?php echo $dato['_id']; ?>">Eliminar</button>
+                    </td>
+
                 </tr>
             <?php
                 } //foreach
@@ -85,15 +88,15 @@
                 button.addEventListener('click', function() {
                     var confirmacion = confirm("¿Estás seguro que deseas eliminar este elemento?");
                     if (confirmacion) {
-
                         var id = this.getAttribute('data-id');
-                        location.href = "del_item.php?id=" + id;
+                        location.href = "del_entrada.php?id=" + id;
                     } else {
                         alert("Operación cancelada.");
                     }
                 });
             });
         </script>
+
     <?php
             } else {
     ?>

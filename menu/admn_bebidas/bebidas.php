@@ -73,7 +73,9 @@
                         </form>
                         
                     </td>
-                    <td><button type="button" class="btn btn-danger extbt delete-btn">Eliminar</button></td>
+                     <td>
+                        <button type="button" class="btn btn-danger extbt delete-btn" data-id="<?php echo $dato['_id']; ?>">Eliminar</button>
+                    </td>
                 </tr>
             <?php
                 } //foreach
@@ -87,7 +89,7 @@
                     if (confirmacion) {
 
                         var id = this.getAttribute('data-id');
-                        location.href = "del_item.php?id=" + id;
+                        location.href = "del_bebidas.php?id=" + id;
                     } else {
                         alert("Operación cancelada.");
                     }

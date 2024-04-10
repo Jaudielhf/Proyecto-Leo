@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <script src="../../bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
 
-    <title>platillos</title>
+    <title>Postres</title>
 </head>
 
 <body>
@@ -24,7 +24,7 @@
 
             if ($users->count() > 0) {
              
-                $datos = $users->find(['categoria' => 'platillo']);
+                $datos = $users->find(['categoria' => 'postre']);
               
             ?>
         <table class="table">
@@ -73,10 +73,9 @@
                         </form>
                         
                     </td>
-                     <td>
-                        <button type="button" class="btn btn-danger extbt delete-btn" data-id="<?php echo $dato['_id']; ?>">Eliminar</button>
+                    <td>
+                    <button type="button" class="btn btn-danger extbt delete-btn" data-id="<?php echo $dato['_id']; ?>">Eliminar</button>
                     </td>
-
                 </tr>
             <?php
                 } //foreach
@@ -88,8 +87,9 @@
                 button.addEventListener('click', function() {
                     var confirmacion = confirm("¿Estás seguro que deseas eliminar este elemento?");
                     if (confirmacion) {
+
                         var id = this.getAttribute('data-id');
-                        location.href = "del_platillos.php?id=" + id;
+                        location.href = "del_postres.php?id=" + id;
                     } else {
                         alert("Operación cancelada.");
                     }

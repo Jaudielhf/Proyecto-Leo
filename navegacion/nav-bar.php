@@ -10,6 +10,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="formulario_add.php">Nuevo</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../carta.php">Carta</a>
+              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Categoria
@@ -19,7 +22,7 @@
                   <li><a class="dropdown-item" href="../../menu/adm_platillos/platillos.php">Platillos</a></li>
                   <li><a class="dropdown-item" href="../../menu/admn_bebidas/bebidas.php">Bebidas</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="../../menu/postres.php">Postres</a></li>
+                  <li><a class="dropdown-item" href="../../menu/admn_postres/postres.php">Postres</a></li>
                 </ul>
               </li>
             </ul>

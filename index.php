@@ -22,16 +22,19 @@
               <li class="nav-item">
                 <a class="nav-link" href="./menu/adm_entradas/formulario_add.php">Nuevo</a>
               </li>
+              <li class="nav-item">
+              <a class="nav-link" href="./menu/carta.php">Carta</a>
+              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Categoria
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="./menu/adm_entradas/entradas.php">Entradas</a></li>
-                  <li><a class="dropdown-item" href="./menu/adm_plat/platillos.php">Platillos</a></li>
+                  <li><a class="dropdown-item" href="./menu/adm_platillos/platillos.php">Platillos</a></li>
                   <li><a class="dropdown-item" href="./menu/admn_bebidas/bebidas.php">Bebidas</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="./menu/postres.php">Postres</a></li>
+                  <li><a class="dropdown-item" href="./menu/admn_postres/postres.php">Postres</a></li>
                 </ul>
               </li>
             </ul>
@@ -107,7 +110,7 @@
                         <div class="card-data">
                           <p class="title">Administrar Postres
                           </p><p>último plato de la comida, se asocia con todas las preparaciones dulces.</p>
-                          <button class="button" onclick="location.href='./menu/postres.php'">Ver Productos</button>
+                          <button class="button" onclick="location.href='./menu/admn_postres/postres.php'">Ver Productos</button>
                         </div>
                     </div>
                 </article>
